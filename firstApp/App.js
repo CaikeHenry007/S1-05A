@@ -1,4 +1,4 @@
-// Importando os elemento utilizados
+// Importando os elementos utilizados
 import { View } from "react-native";
 
 // Importando o componente do Cabeçalho
@@ -16,7 +16,7 @@ import { styles } from "./src/styles/StyleSheet";
 export default function App() {
   return (
     <View style={styles.container}>
-      
+
       {/* Cabeçalho */}
       <Header />
 
