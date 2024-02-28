@@ -1,5 +1,5 @@
 // Importando os elemento utilizados
-import { Text, View } from "react-native";
+import { View } from "react-native";
 
 // Importando o componente do Cabeçalho
 import Header from "./src/componentes/Header";
@@ -21,9 +21,7 @@ export default function App() {
       <Header />
 
       {/* Corpo */}
-      <View style={styles.body}>
-        <Body />
-      </View>
+      <Body />
 
       {/* Rodapé */}
       <Footer />

@@ -13,12 +13,22 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
 
+  textHeader: {
+    fontSize: 20,
+    color: "white",
+  },
+
   body: {
     flex: 1,
     width: "100%",
     alignItems: "center",
     justifyContent: "center",
     backgroundColor: "#fff",
+  },
+
+  textBody: {
+    fontSize: 40,
+    color: "red",
   },
 
   footer: {
@@ -29,18 +39,8 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
   },
 
-  textHeader: {
-    fontSize: 20,
-    color: 'white',
-  },
-
-  textBody: {
-    fontSize: 40,
-    color: 'red',
-  },
-
   textFooter: {
     fontSize: 20,
-    color: 'white',
+    color: "white",
   },
 });

@@ -3,10 +3,8 @@ import { styles } from "/home/caike/Documentos/src/nodeenv/GitHub/S1-05A/firstAp
 
 export default function Header() {
   return (
-
     <View style={styles.header}>
-        <Text style={styles.textHeader}>Esse é o Cabeçalho!</Text>
+      <Text style={styles.textHeader}>Esse é o Cabeçalho!</Text>
     </View>
-
   );
 }

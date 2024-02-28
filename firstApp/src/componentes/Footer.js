@@ -3,10 +3,8 @@ import { styles } from "/home/caike/Documentos/src/nodeenv/GitHub/S1-05A/firstAp
 
 export default function Footer() {
   return (
-
     <View style={styles.footer}>
-        <Text style={styles.textFooter}>Esse é o Rodapé!</Text>
+      <Text style={styles.textFooter}>Esse é o Rodapé!</Text>
     </View>
-
   );
 }
