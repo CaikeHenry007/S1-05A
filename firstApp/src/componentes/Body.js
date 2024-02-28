@@ -1,5 +1,5 @@
 import { Text, View } from "react-native";
-import { styles } from "/home/caike/Documentos/src/nodeenv/GitHub/S1-05A/firstApp/src/styles/StyleSheet.js";
+import { styles } from "../styles/StyleSheet";
 
 export default function Body() {
   return (
